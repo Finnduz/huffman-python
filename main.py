@@ -1,7 +1,7 @@
 from collections import Counter
 import heapq
 from graphviz import Digraph
-import json   # <– neu
+import json
 
 # 1. Text einlesen und Häufigkeiten bestimmen
 with open('goethe_faust_i.txt', 'r', encoding='utf-8') as f:
